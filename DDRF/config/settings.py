@@ -62,7 +62,7 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
 }
 
-ROOT_URLCONF = 'DDRF.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
@@ -80,7 +80,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DDRF.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database
